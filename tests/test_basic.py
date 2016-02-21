@@ -7,7 +7,6 @@ from wsgiref.util import setup_testing_defaults
 def test_defaults():
     env = {}
     setup_testing_defaults(env)
-    print env
     w = Wexy(env)
 
     assert w.request_method == 'GET'
