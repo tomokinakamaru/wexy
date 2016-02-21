@@ -54,7 +54,7 @@ class Wexy(object):
         return self.get('SERVER_PORT')
 
     @property
-    def sever_protocol(self):
+    def server_protocol(self):
         return self.get('SERVER_PROTOCOL')
 
     @property
