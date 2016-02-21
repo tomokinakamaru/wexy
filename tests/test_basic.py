@@ -20,3 +20,4 @@ def test_defaults():
     assert w.wsgi_multiprocess == 0
     assert w.wsgi_run_once == 0
     assert w.wsgi_version == (1, 0)
+    assert w.get_http('host') == '127.0.0.1'
